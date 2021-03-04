@@ -8,7 +8,7 @@
             h1,h2,h3,h4{
             color:cornflowerblue ;
          }
-            h1{font-family: 'Dancing Script', cursive;}
+            h1,h2{font-family: 'Dancing Script', cursive;}
         p{
             border: 2px solid orange;
             border-radius: 15px;

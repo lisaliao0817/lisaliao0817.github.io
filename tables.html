@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <!--
+            Hello! This is a Lisa's website.
+        -->
+        <title> Lisa's Photo Journal </title>
+        <link rel="stylesheet" href="lisa-style.css">
+        <link rel="stylesheet" href="navigation-menu.css">
+        
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a id="active" href="tables.html">Tables</a></li>
+            </ul>
+        </div> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&display=swap');
+            table{
+                border-collapse: collapse;
+                width:50%;
+                font-family: 'Comfortaa', cursive;
+                font-size: 20;
+            }
+            
+            th,td{
+                text-align: left;
+                padding:8px;
+                border:2px solid #006699;
+            }
+            
+            tr:nth-child(even){background-color: #e6f2ff;}
+            tr:hover{background-color: #ffe6e6;}
+            th{
+                background-color: antiquewhite;
+                color:#e69900;
+            }
+        </style>
+    </head>
+    <body class="center">
+        <h1>Subjects of My Photos</h1>
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nature</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>My dog Nana</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Street/Neighborhood</td>
+            </tr>
+        </table>
+    </body>
