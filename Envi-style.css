@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+/*The following is navigation css*/
+body {
+  margin: 0;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #94b8b8;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 22px;
+}
+
+#active {
+  background-color: #fefbd8;
+  color: black;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #94b8b8;
+  color: white;
+}
+
+/*CSS for the body*/
+body {
+        background-color:#e6f2ff;
+        }    
+h1{font-family: 'Pattaya', sans-serif;
+    font-size: 50px}
+h2,ul{font-family: 'KoHo', sans-serif;}
+p{font-family: 'KoHo', sans-serif;
+    font-size: 25px}
+
+
+/*CSS for table*/
+table{
+            border-collapse: collapse;
+            width:50%;
+            font-size: 20;
+            font-family: 'KoHo', sans-serif;
+        }
+            
+            th,td{
+                text-align: left;
+                padding:8px;
+                border:2px solid #006699;
+            }
+            
+            tr:nth-child(even){background-color: #e6f2ff;}
+            tr:hover{background-color: #ffe6e6;}
+            th{
+                background-color: antiquewhite;
+                color:#e69900;
+            }
